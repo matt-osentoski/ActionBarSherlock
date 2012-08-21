@@ -1383,4 +1383,8 @@ public class SearchView extends LinearLayout implements CollapsibleActionView {
       view.setText(text);
     }
   }
+
+  public void setSearchHintIcon(ImageView searchHintIcon) {
+	  this.mSearchHintIcon = searchHintIcon;
+  }
 }
